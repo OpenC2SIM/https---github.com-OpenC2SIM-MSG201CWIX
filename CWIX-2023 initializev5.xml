@@ -2375,7 +2375,6 @@
     <SystemEntityList>
       <!--NOR-SWAP (3BnCCoy; 3BNHQ)-->
       <ActorReference>00000000-0001-0001-1330-000000000000</ActorReference> <!-- 3BnCCoy -->
-      <ActorReference>00000000-0001-0001-1300-000000000000</ActorReference> <!-- 3BNHQ -->
       <ActorReference>00000000-0002-0007-1015-000000000000</ActorReference> <!-- OPFOR Link platform -->
       <SystemName>FRA</SystemName>
     </SystemEntityList>
@@ -2394,6 +2393,13 @@
       <SystemName>NLD</SystemName>
     </SystemEntityList>
     <SystemEntityList>
+       <ActorReference>00000000-0002-0007-1016-000000000000</ActorReference> <!-- OPFOR SBC8 platform (boat)-->
+       <ActorReference>00000000-0001-0001-1110-000000000000</ActorReference> <!-- 1BnACoy-->
+       <ActorReference>00000000-0001-0001-1431-000000000000</ActorReference> <!-- UAS1 -->
+       <ActorReference>00000000-0007-0001-0030-000000000000</ActorReference> <!-- USABoat4 -->
+       <SystemName>NPS</SystemName>
+    </SystemEntityList>
+    <SystemEntityList>
       <!-- forces not used in MR -->
       <!--OPFOR NorC1; NykC2; OxeC3; Krok; Link; SBC8)-->
       <ActorReference>00000000-0002-0007-1007-000000000000</ActorReference> <!-- OPFOR NorC1Soldier -->
@@ -2402,12 +2408,10 @@
       <ActorReference>00000000-0002-0007-1004-000000000000</ActorReference> <!-- OPFOR Krok -->
       <ActorReference>00000000-0002-0007-1005-000000000000</ActorReference> <!-- OPFOR Link -->
       <ActorReference>00000000-0002-0007-1006-000000000000</ActorReference> <!-- OPFOR SBC8 -->
-      <ActorReference>00000000-0002-0007-1016-000000000000</ActorReference> <!-- OPFOR SBC8 platform (boat)-->
       <ActorReference>00000000-0002-0007-2000-000000000000</ActorReference> <!-- dummy parent red -->
       <ActorReference>00000000-0002-0007-1004-000000000000</ActorReference> <!-- OPFOR Krok -->
       <!-- Friendly not used in MR -->
       <ActorReference>00000000-0001-0001-1100-000000000000</ActorReference> <!-- 1BnHQ -->
-      <ActorReference>00000000-0001-0001-1110-000000000000</ActorReference> <!-- 1BnACoy-->
       <ActorReference>00000000-0001-0001-1120-000000000000</ActorReference> <!-- 1BnBCoy -->
       <ActorReference>00000000-0001-0001-1130-000000000000</ActorReference> <!-- 1BnCCoyHQ -->
       <ActorReference>00000000-0001-0001-1131-000000000000</ActorReference> <!-- 1BnCp1 -->
@@ -2420,13 +2424,11 @@
       <ActorReference>00000000-0001-0001-1400-000000000000</ActorReference> <!-- 4BnHq -->
       <ActorReference>00000000-0001-0001-1421-000000000000</ActorReference> <!-- AH6a -->
       <ActorReference>00000000-0001-0001-1422-000000000000</ActorReference> <!-- AH6b -->
-      <ActorReference>00000000-0001-0001-1431-000000000000</ActorReference> <!-- UAS1 -->
       <ActorReference>00000000-0001-0001-1432-000000000000</ActorReference> <!-- UAS2 -->
       <ActorReference>00000000-0001-0001-1433-000000000000</ActorReference> <!-- UAS3 -->
       <ActorReference>00000000-0001-0001-1434-000000000000</ActorReference> <!-- UAS4 -->
       <ActorReference>00000000-0001-0001-1435-000000000000</ActorReference> <!-- UAS5 -->
       <ActorReference>00000000-0001-0001-1436-000000000000</ActorReference> <!-- UAS6 -->
-      <ActorReference>00000000-0007-0001-0030-000000000000</ActorReference> <!-- USABoat4 -->
       <SystemName>NOTUSED-</SystemName>
     </SystemEntityList> 
   </C2SIMInitializationBody>
